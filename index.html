@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===Title of My Website=== -->
+    <title>www.vdt.com</title>
+
+    <!-- ===CSS=== -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Favicon/site.webmanifest" />
+  </head>
+
+  <body>
+    <!-- ===Navigation bar=== -->
+    <nav class="navbar">
+      <h1 class="logo">Vibhutajane</h1>
+      <ul class="nav-links">
+        <li class="home"><a href="#">Home</a></li>
+        <li><a href="#Live_Projects">Live Projects</a></li>
+        <li><a href="#AboutUs">About Us</a></li>
+        <li><a href="#SocialMedia">Social Media</a></li>
+        <li class="ctn"><a href="#Contact">Contact Us</a></li>
+      </ul>
+      <img src="./IMAGES/2.png" alt="img" class="menu-button" />
+    </nav>
+
+    <!-- ===Header Part=== -->
+    <header>
+      <div class="header-content">
+        <h2>Responsive Parallax Website</h2>
+        <div class="line"></div>
+        <h1>Vaibhav Dattatray Tajane</h1>
+      </div>
+    </header>
+
+    <!-- ===Project section=== -->
+    <section id="Live_Projects" class="projects">
+      <div class="title">
+        <h1>Live Projects</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="https://vibhu-is-offline.netlify.app/" target="_main"
+            ><img src="./IMAGES/3.gif" class="para" alt="img"
+          /></a>
+          <h4>Dinosaur Game</h4>
+        </div>
+        <div class="col">
+          <a href="https://vaibhavtajaneresume.netlify.app/" target="_main"
+            ><img src="./IMAGES/4.jpg" class="para" alt="img"
+          /></a>
+          <h4>Responsive Resume</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===About Us Section=== -->
+    <section id="AboutUs" class="aboutus">
+      <div class="about-content">
+        <h1>About Us</h1>
+        <div class="line"></div>
+        <p>
+          As a recent Engineering graduate, I’m seeking an opportunity to apply
+          my Programing skills with a Company that I can be proud to be a part
+          of. I’m looking to join an organization where innovation and
+          creativity are a part of everyday operations.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===Contact Us section=== -->
+    <section id="SocialMedia" class="contactus">
+      <div class="rows">
+        <div class="row-total">
+          <div class="col content-col">
+            <h1>Follow Us For More Updates</h1>
+            <div class="line"></div>
+            <div class="contactctn"></div>
+          </div>
+          <div class="col image-col">
+            <div class="image-gallery">
+              <a href="https://twitter.com/vibhutajane" target="_main"
+                ><img src="./IMAGES/6.png" alt="img"
+              /></a>
+              <a href="https://www.linkedin.com/in/vibhutajane/" target="_main"
+                ><img src="./IMAGES/7.png" alt="img"
+              /></a>
+              <a href="https://github.com/vibhutajane" target="_main"
+                ><img src="./IMAGES/8.png" alt="img"
+              /></a>
+              <a href="https://www.instagram.com/vibhu.tajane/" target="_main"
+                ><img src="./IMAGES/9.png" alt="img"
+              /></a>
+              <a
+                href="https://auth.geeksforgeeks.org/user/vibhudtajane/practice/"
+                target="_main"
+                ><img src="./IMAGES/10.png" alt="img"
+              /></a>
+              <a href="https://leetcode.com/vibhudtajane/" target="_main"
+                ><img src="./IMAGES/11.png" alt="img"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===Footer Section=== -->
+    <footer>
+      <section id="Contact" class="footer">
+        <p>
+          Copyright © 2022 Vaibhav Dattatray Tajane Pvt. Ltd. All rights
+          reserved.
+        </p>
+        <p>Contact Us : vaibhavtajane06@gmail.com</p>
+      </section>
+    </footer>
+
+    <!-- ===Javascript=== -->
+    <script>
+      const menuBtn = document.querySelector(".menu-button");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
